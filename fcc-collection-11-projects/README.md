@@ -13,7 +13,7 @@ https://youtu.be/jFfo23yIWac?si=TtgSVPcKbT8ncGLg
 8. CRM with Golang Fiber - https://github.com/AkhilSharma90/go-beginner-CRM-project
 9. HRMS with Golang Fiber - https://github.com/AkhilSharma90/go-beginner-fiber-HRMS-project
 10. -forked- Complete Serverless Stack - https://github.com/AkhilSharma90/Golang-Serverless-Project
-11. A.I Bot with Wolfram, Wit.ai and golang - https://github.com/AkhilSharma90/AI-Bot-GOlang-Wit.ai-Wolfram-Slack
+11. -skipped- A.I Bot with Wolfram, Wit.ai and golang - https://github.com/AkhilSharma90/AI-Bot-GOlang-Wit.ai-Wolfram-Slack
 
 ⭐️ Course Contents ⭐️
 - ⌨️ (0:00:00) Build A Simple Web Server With Golang
@@ -26,4 +26,4 @@ https://youtu.be/jFfo23yIWac?si=TtgSVPcKbT8ncGLg
 - ⌨️ (3:50:12) CRM with Golang Fiber
 - ⌨️ (4:34:34) HRMS with Golang Fiber
 - ⌨️ -forked- (5:44:25) Complete serverless stack with Golang
-- ⌨️ (7:28:55) A.I Bot with wolfram, wit.ai and Golang
+- ⌨️ -skipped- (7:28:55) A.I Bot with wolfram, wit.ai and Golang
