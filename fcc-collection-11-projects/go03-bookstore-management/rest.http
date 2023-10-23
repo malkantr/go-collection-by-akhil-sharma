@@ -1,0 +1,33 @@
+@baseUrl = http://localhost:8000
+@bookId = 6
+
+###
+GET {{baseUrl}}/book HTTP/1.1
+
+###
+GET {{baseUrl}}/book/{{bookId}} HTTP/1.1
+
+###
+POST {{baseUrl}}/book HTTP/1.1
+Content-Type: application/json
+
+{
+  "Name": "Zero to One2",
+  "Author":"Peter Thiel",
+  "Publication": "Penguin"
+
+}
+
+###
+PUT {{baseUrl}}/book/{{bookId}} HTTP/1.1
+Content-Type: application/json
+
+{
+  "Name": "Zero to One+",
+  "Author":"Peter Thiel",
+  "Publication": "Penguin"
+}
+
+
+###
+DELETE {{baseUrl}}/book/{{bookId}} HTTP/1.1

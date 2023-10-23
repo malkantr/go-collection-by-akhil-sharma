@@ -1,0 +1,35 @@
+@baseUrl = http://localhost:8000
+@apiPath = employee
+@id = 6534e045b3c45c55915b5ed1
+
+###
+GET {{baseUrl}}/{{apiPath}} HTTP/1.1
+
+###
+GET {{baseUrl}}/{{apiPath}}/{{id}} HTTP/1.1
+
+###
+POST {{baseUrl}}/{{apiPath}} HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "salary":10000,
+  "age": 29
+
+}
+
+###
+PUT {{baseUrl}}/{{apiPath}}/{{id}} HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "John Doer",
+  "salary":10001,
+  "age": 30
+
+}
+
+
+###
+DELETE {{baseUrl}}/{{apiPath}}/{{id}} HTTP/1.1

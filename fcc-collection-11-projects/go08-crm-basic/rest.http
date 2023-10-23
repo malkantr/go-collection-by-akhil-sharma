@@ -1,0 +1,23 @@
+@baseUrl = http://localhost:8000
+@id = 1
+
+###
+GET {{baseUrl}}/api/v1/lead HTTP/1.1
+
+###
+GET {{baseUrl}}/api/v1/lead/{{id}} HTTP/1.1
+
+###
+POST {{baseUrl}}/api/v1/lead HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "some name",
+  "company": "some company",
+  "email": "some@dev.local",
+  "phone": 5555555555
+}
+
+
+###
+DELETE {{baseUrl}}/api/v1/lead/{{id}} HTTP/1.1
